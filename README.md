@@ -13,6 +13,6 @@ Closed-loop feedback from a camera in the palm and the reactive controller enabl
 
 The generalised architecture allows for chaining of multiple actions and the execution of complex, multi-step tasks.
 
-[![Frankie Pick-and-Place Loop](images/FrankieLoopThumbnail.jpg)](https://www.youtube.com/watch?v=5lZfAJ_AHP0 "Frankie Pick-and-Place Loop")
+[![Frankie Pick-and-Place Loop](images/FrankieLoopThumbnailCropped.jpg)](https://www.youtube.com/watch?v=5lZfAJ_AHP0 "Frankie Pick-and-Place Loop")
 
 Paper coming soon!
