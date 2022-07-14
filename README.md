@@ -3,16 +3,24 @@ Why do mobile robots come to a stop when they grasp something or put something d
 
 This project develops an architecture for allowing mobile manipulators to perform reactive manipulation tasks on-the-move. Reactive control allows for robust performance in complex, dynamic environments, such as grasping moving objects.
 
+## Pick-and-Place Tasks
 This video demonstrates performance of the architecture on a real-world mobile manipulator performing a pick-and-place task.
 
 ![Frankie Pick-and-Place](gifs/FrankiePickPlace.gif)
 
+## Grasping Moving Objects
 Closed-loop feedback from a camera in the palm and the reactive controller enables grasping of objects with unpredictable motion. 
 
 ![Frankie Pick-and-Place Moving Object](gifs/FrankiePickPlaceDynamic.gif)
 
+## Complex, Multi-step Tasks
 The generalised architecture allows for chaining of multiple actions and the execution of complex, multi-step tasks.
 
 [![Frankie Pick-and-Place Loop](images/FrankieLoopThumbnailCropped.jpg)](https://www.youtube.com/watch?v=5lZfAJ_AHP0 "Frankie Pick-and-Place Loop")
+
+## Simulation Environment
+To assist in devlopment I built a simulation and visulalisation environment in Unity. This simulation provides the same ROS interfaces as the real robot, allowing seamless testing.  
+
+![Unity Simulation](gifs/FrankieSimUnity.gif)
 
 Paper coming soon!
