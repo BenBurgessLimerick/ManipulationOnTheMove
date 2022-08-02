@@ -33,4 +33,8 @@ To assist in devlopment we built a simulation and visulalisation environment in 
 
 ![Unity Simulation](gifs/MotmSims.gif)
 
+The simulation can also be used to investigate how the reactive architecture can be used to compensate for base disturbances. In the case shown below, the controller has no prior knowledge of the rolling base motion, but reacts to observations in order to stabilise the gripper in world space. 
+
+![Simulation With Base Disturbances](gifs/RollingFrankie.gif)
+
 Paper coming soon!
