@@ -15,7 +15,7 @@ Compare this behaviour to a reactive baseline implementation which treats the gr
 ## Grasping Moving Objects
 Closed-loop feedback from a camera in the palm and the reactive controller enables grasping of objects with unpredictable motion. 
 
-![Frankie Pick-and-Place Moving Object](gifs/FrankiePickPlaceDynamic.gif)
+![Frankie Pick-and-Place Moving Object](gifs/FrankiePickPlaceDynamic2.gif)
 
 ## Complex, Multi-step Tasks
 The generalised architecture allows for chaining of multiple actions and the execution of complex, multi-step tasks.
