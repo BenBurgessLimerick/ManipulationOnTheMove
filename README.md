@@ -3,6 +3,8 @@ Why do mobile robots come to a stop when they grasp something or put something d
 
 This project develops an architecture for allowing mobile manipulators to perform reactive manipulation tasks on-the-move. Reactive control allows for robust performance in complex, dynamic environments, such as grasping moving objects.
 
+[Paper available here](https://arxiv.org/abs/2212.06991)
+
 ## Pick-and-Place Tasks
 This video demonstrates performance of the architecture on a real-world mobile manipulator performing a pick-and-place task.
 
