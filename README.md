@@ -5,6 +5,8 @@ This project develops an architecture for allowing mobile manipulators to perfor
 
 [Paper available here](https://arxiv.org/abs/2212.06991)
 
+![Manipulation On-The-Move Banner](images/MotmBanner.png)
+
 ## Pick-and-Place Tasks
 This video demonstrates performance of the architecture on a real-world mobile manipulator performing a pick-and-place task.
 
@@ -29,6 +31,23 @@ Even faster grasping can be achieved by allowing a relative velocity between gri
 
 ![Even Faster Grasping](gifs/FastGrasp.gif)
 
+## Manipulation On-The-Move with Obstacles
+We are currently working towards extending our reactive architecture to performing manipulation on the move in environments with static and dynamic obstacles. The gif below shows some early results. The system is capable of avoiding static and dynamic obstacles while performing pick-and-place tasks on-the-move. 
+
+![Manipulation On-The-Move with Obstacles](gifs/MotmObstacles.gif)
+
+This video shows the same clip in realtime and synchronised with a visualisation of the robots understanding of the environment as mapped by the 2D lidar attached to the base. 
+
+[![Manipulation On-The-Move with Obstacles](images/MotmObstaclesVideoLink.JPG)](https://youtu.be/jFcwtLKqeBg "Manipulation On-The-Move with Obstacles")
+
+## Enabling Failure Recovery for Manipulation On-The-Move
+Performing manipulation tasks on-the-move introduces a new challenge for graceful recovery in the event of inevitable failures. For example, if the robot fails to grasp an object while driving past, the object may no longer be within range by the time a second attempt is made. We have developed a base control method that keeps the robot near the object while performing grasps, while also making as much progress as possible toward the next goal in a task, performing grasps on-the-move where possible. [More details are available here.](https://benburgesslimerick.github.io/MotM-FailureRecovery/)
+
+![Failure Recovery for Manipulation On-The-Move](gifs/ObstructedTurn_ours_6s_big.gif)
+
+This video shows a comparison with two baseline methods. 
+
+[![Failure Recovery Baseline Comparison](images/FailureRecoveryVideoLink.JPG)](https://youtu.be/T5_SeSubFCE "Failure Recovery Baseline Comparison")
 
 ## Simulation Environment
 To assist in devlopment we built a simulation and visulalisation environment in Unity. This simulation provides the same ROS interfaces as the real robot, allowing seamless testing. The environment also allows us to test our architecture on various robot platforms. 
