@@ -7,6 +7,8 @@ This project develops an architecture for allowing mobile manipulators to perfor
 
 ![Manipulation On-The-Move Banner](images/MotmBanner.png)
 
+<video src="https://user-images.githubusercontent.com/32886576/236379737-70c3feb8-5729-425a-a825-601b2f6f6583.mp4" data-canonical-src="https://user-images.githubusercontent.com/32886576/236379737-70c3feb8-5729-425a-a825-601b2f6f6583.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px"></video>
+
 ## Pick-and-Place Tasks
 This video demonstrates performance of the architecture on a real-world mobile manipulator performing a pick-and-place task.
 
