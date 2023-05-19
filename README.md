@@ -5,6 +5,8 @@ This project develops an architecture for allowing mobile manipulators to perfor
 
 [Paper available here](https://arxiv.org/abs/2212.06991)
 
+[Project video here](https://youtu.be/C39rBTytiWc)
+
 ![Manipulation On-The-Move Banner](images/MotmBanner.png)
 
 <video src="https://user-images.githubusercontent.com/32886576/236379737-70c3feb8-5729-425a-a825-601b2f6f6583.mp4" data-canonical-src="https://user-images.githubusercontent.com/32886576/236379737-70c3feb8-5729-425a-a825-601b2f6f6583.mp4" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px"></video>
@@ -41,6 +43,14 @@ We are currently working towards extending our reactive architecture to performi
 This video shows the same clip in realtime and synchronised with a visualisation of the robots understanding of the environment as mapped by the 2D lidar attached to the base. 
 
 [![Manipulation On-The-Move with Obstacles](images/MotmObstaclesVideoLink.JPG)](https://youtu.be/jFcwtLKqeBg "Manipulation On-The-Move with Obstacles")
+
+Here we demonstrate our system performing a manipulation on-the-move task while sharing the space with, and avoiding, a second autonomous robot:
+
+[![Manipulation On-The-Move in a Shared Environment](images/TemiRealWorldLink.png)](https://youtu.be/0XcxeaLh8lU "Manipulation On-The-Move in a Shared Environment")
+
+We also present a simulated experiment with 4 obstacle robots which results in more frequent interactions and avoidance manoeuvres. 
+
+[![Simulated Manipulation On-The-Move with Autonomous Dynamic Obstacles](images/SimulatedTemiLink.png)](https://youtu.be/EKoV2SlYg9M "Simulated Manipulation On-The-Move with Autonomous Dynamic Obstacles")
 
 ## Enabling Failure Recovery for Manipulation On-The-Move
 Performing manipulation tasks on-the-move introduces a new challenge for graceful recovery in the event of inevitable failures. For example, if the robot fails to grasp an object while driving past, the object may no longer be within range by the time a second attempt is made. We have developed a base control method that keeps the robot near the object while performing grasps, while also making as much progress as possible toward the next goal in a task, performing grasps on-the-move where possible. [More details are available here.](https://benburgesslimerick.github.io/MotM-FailureRecovery/)
