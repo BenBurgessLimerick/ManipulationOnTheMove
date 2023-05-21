@@ -52,6 +52,12 @@ We also present a simulated experiment with 4 obstacle robots which results in m
 
 [![Simulated Manipulation On-The-Move with Autonomous Dynamic Obstacles](images/SimulatedTemiLink.png)](https://youtu.be/EKoV2SlYg9M "Simulated Manipulation On-The-Move with Autonomous Dynamic Obstacles")
 
+## Manipulation On-The-Move for Complex Tasks
+
+We are also working on adding the capability to perform more complex tasks beyond pick-and-place. For example, in the simulated video below the robot must also open and close a set of drawers. In the future, we would like to implement other manipulation primitives that can be done on-the-move such as opening/closing doors, pressing buttons, turning valves, and more. 
+
+[![Simulated Manipulation On-The-Move with Drawers](images/DrawerVideoLink.png)](https://youtu.be/zwM1JgV9W0I "Simulated Manipulation On-The-Move with Drawers")
+
 ## Enabling Failure Recovery for Manipulation On-The-Move
 Performing manipulation tasks on-the-move introduces a new challenge for graceful recovery in the event of inevitable failures. For example, if the robot fails to grasp an object while driving past, the object may no longer be within range by the time a second attempt is made. We have developed a base control method that keeps the robot near the object while performing grasps, while also making as much progress as possible toward the next goal in a task, performing grasps on-the-move where possible. [More details are available here.](https://benburgesslimerick.github.io/MotM-FailureRecovery/)
 
