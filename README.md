@@ -7,11 +7,9 @@ This project develops an architecture for allowing mobile manipulators to perfor
 
 [Project video here](https://youtu.be/C39rBTytiWc)
 
-[Related work on holistic mobile manipulation]
-(https://jhavl.github.io/holistic/)
+[Related work on holistic mobile manipulation](https://jhavl.github.io/holistic/)
 
-[Robotics Toolbox for Python]
-(https://github.com/petercorke/robotics-toolbox-python)
+[Robotics Toolbox for Python](https://github.com/petercorke/robotics-toolbox-python)
 
 ![Manipulation On-The-Move Banner](images/MotmBanner.png)
 
